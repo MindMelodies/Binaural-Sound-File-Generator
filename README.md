@@ -99,7 +99,8 @@ To use this program, you will need to import the `generate_sound` function and c
 Here's an example of how to generate a binaural sound file with a duration of 30 seconds, and a frequency of 300Hz in the left channel and 305Hz in the right channel:
 
 ```python
-from binaural_generator import generate_sound  generate_sound(left_frequency=300, right_frequency=305, file_duration=30, file_name='test.wav')
+from binaural_generator import generate_sound
+generate_sound(left_frequency=300, right_frequency=305, file_duration=30, file_name='test.wav')
 ```
 
 ## Output
