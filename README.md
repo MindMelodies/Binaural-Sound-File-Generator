@@ -16,15 +16,7 @@ import soundfile as sf
 import numpy as np
 
 def generate_sound(left_frequency, right_frequency, file_duration, file_name, sound_duration=None, silence_duration=None):
-    """
-    Generates a binaural sound file with specified parameters
-    :param left_frequency: frequency of the left channel
-    :param right_frequency: frequency of the right channel
-    :param file_duration: duration of the audio file in seconds
-    :param file_name: name of the output file
-    :param sound_duration: duration of the sound in seconds, defaults to file_duration if not specified
-    :param silence_duration: duration of the silence in seconds, defaults to 0 if not specified
-    """
+
     # If sound duration is not specified, set it to file duration
     if not sound_duration:
         sound_duration = file_duration
