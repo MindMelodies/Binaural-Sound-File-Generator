@@ -79,7 +79,7 @@ You can install these packages by running the following command in your terminal
 pip install numpy soundfile
 ```
 
-## Or
+### Or
 
 ```sh
 pip install -r requirements.txt
