@@ -79,6 +79,12 @@ You can install these packages by running the following command in your terminal
 pip install numpy soundfile
 ```
 
+## Or
+
+```sh
+pip install -r requirements.txt
+```
+
 ## Usage
 
 To use this program, you will need to import the `generate_sound` function and call it with the following parameters:
